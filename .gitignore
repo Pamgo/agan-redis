@@ -1,34 +1,24 @@
-# maven ignore
-target/
-*.jar
-*.war
-*.zip
-*.tar
-*.tar.gz
+# Maven
+**/target/
+**/*.ser
+**/*.ec
 
-# eclipse ignore
-.settings/
-.project
-.classpath
+# IntelliJ Idea
+**/.idea/
+**/out/
+**/*.ipr
+**/*.iws
+**/*.iml
 
-# idea ignore
-.idea/
-*.ipr
-*.iml
-*.iws
+# Eclipse
+**/.classpath
+**/.project
+**/.settings/
+**/.metadata/
+**/*.mymetadata
+**/*.myumldata
 
-# temp ignore
-logs/
-*.doc
-*.log
-*.cache
-*.diff
-*.patch
-*.tmp
+**/logs/**
+logs/**
 
-# system ignore
-.DS_Store
-Thumbs.db
-
-# to8to rpc
-version
+rebel.xml
