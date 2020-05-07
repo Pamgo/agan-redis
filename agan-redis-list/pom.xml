@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.agan.redis</groupId>
+    <artifactId>agan-redis-list</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <modules>
+        <module>list/to8to-redis-juhuasuan</module>
+        <module>list/to8to-redis-pv</module>
+        <module>list/to8to-redis-redpacket</module>
+
+        <module>lock/redis-lock-redlock</module>
+        <module>lock/redis-lock-setnx</module>
+        <module>lock/redis-lock-reentrant</module>
+
+        <module>weibo/redis-weibo</module>
+    </modules>
+
+
+</project>

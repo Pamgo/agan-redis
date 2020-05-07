@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.agan.redis</groupId>
+    <artifactId>agan-redis-zset</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <modules>
+        <module>zset/redis-bloom-filter</module>
+        <module>zset/redis-geo-hotel</module>
+        <module>zset/redis-stream-im</module>
+        <module>zset/redis-stream-mq</module>
+        <module>zset/redis-zset-live</module>
+        <module>zset/redis-zset-rank</module>
+    </modules>
+
+
+</project>
